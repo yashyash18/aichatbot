@@ -1,0 +1,133 @@
+input[type=text] {
+  align-items: center;
+  width: 15%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: "Courier New";
+  border-radius: 4px;
+  border-color: white;
+  background-color: #D1D1D1;
+  color: black;
+}
+input[type=number] {
+  align-items: center;
+  width: 15%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: "Courier New";
+  border-radius: 4px;
+  border-color: white;
+  background-color: #D1D1D1;
+  color: black;
+}
+
+
+
+
+input[name] {
+  font-family: "Courier New";
+}
+
+h1 {
+  font-family: Lato;
+  font-display: block;
+  text-align: center;
+  color: #7882A4;
+  letter-spacing: 8px;
+}
+
+
+
+body {
+  text-align: center;
+  background-color: #D1D1D1;
+  font-family: Georgia;
+  color:#3D2C8D;
+
+  border-width: thin;
+}
+button{
+  background-color: #D1D1D1;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: Lato;
+}
+button:hover{
+  background-color:#7882A4 ;
+  color: white;
+
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+
+}ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  background-color: #D1D1D1;
+border: none;
+border-radius: 4px;
+color: black;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+font-family:Georgia;
+text-decoration-color: black;
+
+
+}
+li:hover{
+  background-color:#7882A4 ;
+  color: white;
+
+}
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: white;
+}
+.about{
+  color: #7882A4 ;
+  width: 500px;
+  text-align: center;
+  height: 500px;
+  margin-left: 500px;
+  font-family: Lato;
+  font-size: 25px;
+  transition-duration: 0.4s;
+}
+.heading{
+  color: #7882A4;
+  transition-duration: 0.4s;
+}
+.about:hover{
+  color: black;
+  background-color:white;
+}
