@@ -118,7 +118,7 @@ a:hover{
   width: 500px;
   text-align: center;
   height: 500px;
-  margin-left: 500px;
+  margin: 0 auto 0 auto;
   font-family: Lato;
   font-size: 25px;
   transition-duration: 0.4s;
